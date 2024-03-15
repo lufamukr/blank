@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
+import { NavLink, Navigate, Route, Routes } from "react-router-dom";
 import st from "./Main.module.css"
 import { NewLesson } from "../lessons/newLesson/NewLesson";
 import { Section } from "../section/Section";
@@ -17,6 +17,7 @@ export function Main() {
         <Routes>
           <Route path="/" element={<Section/>}></Route>
           <Route path="/new" element={<NewLesson/>}></Route>
+          <Route path="/*" element={<Navigate to={"/"}/>}></Route>
         </Routes>
       </section>
     </main>
