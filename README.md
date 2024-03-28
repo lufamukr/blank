@@ -17,4 +17,4 @@ _Курсивний текст_
 
 
 `"Hello World!"`
-![астронавт](./src/image/astron.svg)
+[астронавт](./src/image/astron.svg)
