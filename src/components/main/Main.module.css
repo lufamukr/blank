@@ -6,6 +6,8 @@
 }
 
 .aside {
+  font-family: 'InterBold', sans-serif;
+  font-weight: 700;
   padding: 15px;
   padding-right: 30px;
   border-right: 2px solid #000000;
@@ -18,8 +20,12 @@
   list-style: none;
 }
 
-.list li + .list li {
+.list li {
   margin-bottom: 10px;
+}
+
+.list li:last-of-type {
+  margin-bottom: 0;  
 }
 
 .list li a {

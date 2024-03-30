@@ -1,6 +1,8 @@
 @import url("./Zero.css");
 
 body {
+  font-family: "JosefinSansRegular", sans-serif;
+  font-weight: 400;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   font-size: 18px;

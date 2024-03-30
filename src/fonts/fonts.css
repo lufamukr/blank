@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "InterBold";
+  src: local("Inter"), url("./Inter-Bold.ttf") format("ttf"),
+    url("./Inter-Bold.woff") format("woff");
+  /* Додайте інші формати шрифтів, якщо потрібно */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: local("Inter"), url("./Inter-Regular.ttf") format("ttf"),
+    url("./Inter-Regular.woff") format("woff");
+  /* Додайте інші формати шрифтів, якщо потрібно */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSansBold";
+  src: url("./JosefinSans-Bold.ttf") format("ttf"),
+    url("./JosefinSans-Bold.woff") format("woff");
+  /* Додайте інші формати шрифтів, якщо потрібно */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JosefinSansRegular";
+  src: url("./JosefinSans-Regular.ttf") format("ttf"),
+    url("./JosefinSans-Regular.woff") format("woff");
+  /* Додайте інші формати шрифтів, якщо потрібно */
+  font-weight: 400;
+  font-style: normal;
+}
